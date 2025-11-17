@@ -1,5 +1,5 @@
 {% set name = "filefisher" %}
-{% set version = "1.1.0" %}
+{% set version = "1.2.0" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/filefisher-{{ version }}.tar.gz
-  sha256: f433a66e0be61e2639d84359f888899e4e120fcb1426e74666a0918d2d5e99dc
+  sha256: c220747c224e5a2c44ebd25217f48e0dbe626e6f6e557825ae6e0ef7f238b446
 
 build:
   noarch: python
